@@ -1,0 +1,7 @@
+/* charset "utf-8"; */
+/* Pieces: pdp_click_capture */
+/* base_path_placeholder */
+/* @JAVASCRIPT pdp_click_capture */
+(function(d,c,b){var a;function e(f){f.preventDefault();a=f.target;while(a!==c&&a.tagName.toLowerCase()!=="a"){a=a.parentNode}}b(c).on("click",e);d.releaseClick=function(){b(c).off("click",e);if(!!a){b(a).click()}}}(window,document,jQuery));
+/* @end JAVASCRIPT pdp_click_capture */
+/* js_templates_placeholder */
